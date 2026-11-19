@@ -1,0 +1,41 @@
+{
+  "projectId": "EDU-SQL-NOSQL-001",
+  "generatedAt": "2026-11-19T08:05:26Z",
+  "voiceOver": {
+    "provider": "ElevenLabs",
+    "voiceId": "7KXl23pibFD4VWUWV1E8",
+    "voiceName": "SI-LITY",
+    "files": [
+      "audio/scene_1.mp3",
+      "audio/scene_2.mp3",
+      "audio/scene_3.mp3",
+      "audio/scene_4.mp3",
+      "audio/scene_5.mp3",
+      "audio/scene_6.mp3",
+      "audio/scene_7.mp3"
+    ]
+  },
+  "backgroundMusic": {
+    "provider": "ElevenLabs Sound Generation API",
+    "sample": "audio/bgm_sample.mp3",
+    "master": "audio/bgm_master.mp3",
+    "durationSeconds": 60.0
+  },
+  "subtitles": {
+    "transcript": "transcript.json",
+    "srt": "output/sql-vs-nosql.srt"
+  },
+  "visuals": {
+    "scenes": 7,
+    "thumbnail": "output/thumbnail.png",
+    "stills": [
+      "output/stills/scene-1.png",
+      "output/stills/scene-2.png",
+      "output/stills/scene-3.png",
+      "output/stills/scene-4.png",
+      "output/stills/scene-5.png",
+      "output/stills/scene-6.png",
+      "output/stills/scene-7.png"
+    ]
+  }
+}

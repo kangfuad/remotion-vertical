@@ -1,0 +1,1159 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "remotion_video_theme_playbook_10",
+  "title": "Remotion Video Theme Playbook",
+  "language": "id-ID",
+  "purpose": "Panduan produksi 10 tema video Remotion dengan fokus pada narasi, visual storytelling, penyampaian materi, struktur informasi, dan arahan implementasi komposisi. Pengaturan teknis umum seperti resolusi, aspect ratio, frame rate, safe area, encoding, dan spesifikasi output dikelola oleh konfigurasi proyek Remotion yang sudah tersedia.",
+  "global_editorial_rules": {
+    "storytelling": [
+      "Satu video membahas satu gagasan utama.",
+      "Hook harus membuka pertanyaan, konflik, kontras, atau hasil yang ingin diketahui penonton.",
+      "Setiap adegan harus memiliki fungsi naratif. Hapus adegan yang hanya menjadi dekorasi.",
+      "Susun materi dari konteks menuju penjelasan, bukti atau contoh, lalu insight.",
+      "Jangan menampilkan kesimpulan sebelum penonton memiliki konteks yang cukup.",
+      "Gunakan contoh konkret sebelum istilah abstrak.",
+      "Akhiri dengan satu takeaway yang dapat diingat."
+    ],
+    "voiceover": [
+      "Tulis VO seperti bahasa lisan yang alami, bukan seperti artikel yang dibacakan.",
+      "Gunakan kalimat aktif, pendek, dan mudah dipahami saat didengar sekali.",
+      "Satu kalimat idealnya menyampaikan satu informasi utama.",
+      "Jelaskan istilah teknis segera setelah istilah itu diperkenalkan.",
+      "Jangan mengulang teks layar kata demi kata. VO memberi konteks, visual memperlihatkan bukti atau proses.",
+      "Atur tempo berdasarkan kompleksitas materi. Beri jeda setelah pertanyaan, angka penting, dan perubahan gagasan.",
+      "Jangan memaksakan dramatisasi. Sesuaikan emosi suara dengan jenis cerita."
+    ],
+    "visual_storytelling": [
+      "Visual harus memperjelas informasi yang sedang dibicarakan.",
+      "Gunakan perubahan visual untuk menandai perubahan gagasan, bukan sekadar mengisi waktu.",
+      "Tampilkan satu fokus utama pada satu waktu.",
+      "Pertahankan konsistensi bentuk, label, ikon, dan bahasa visual dalam satu video.",
+      "Gunakan diagram, data, contoh, atau demonstrasi ketika materi membutuhkan bukti visual.",
+      "Hindari stock visual generik jika tidak menambah konteks.",
+      "Pastikan visual tetap dapat dipahami tanpa mengandalkan efek transisi."
+    ],
+    "pacing": [
+      "Buka dengan informasi paling menarik, bukan intro panjang.",
+      "Variasikan shot, komposisi, dan skala visual untuk menjaga ritme.",
+      "Berikan waktu baca yang cukup untuk angka, diagram, chat, dan kode.",
+      "Jangan mempercepat VO hanya untuk mengejar durasi. Pangkas materi yang tidak penting.",
+      "Bangun eskalasi menuju payoff, lalu beri ruang untuk insight atau CTA."
+    ],
+    "accuracy": [
+      "Jangan membuat angka, kutipan, sumber, benchmark, atau kejadian seolah-olah nyata jika tidak diverifikasi.",
+      "Tandai data simulasi, ilustrasi, opini, dan fakta secara jelas.",
+      "Jika materi memakai data eksternal, simpan sumber dan periode data bersama input konten.",
+      "Jangan menyimpulkan sebab-akibat jika data hanya menunjukkan hubungan atau perubahan bersamaan."
+    ],
+    "remotion_content_contract": {
+      "separation_of_concerns": "Pisahkan content data, naskah VO, scene plan, dan komponen visual. Tema menentukan struktur editorial, sedangkan konfigurasi proyek menentukan spesifikasi teknis render.",
+      "data_driven": "Gunakan object atau array input untuk konten yang berulang. Hindari menanam isi cerita langsung ke dalam komponen visual.",
+      "deterministic_animation": "Animasi harus diturunkan dari frame dan konfigurasi scene agar hasil render konsisten.",
+      "accessibility": "Informasi penting tidak boleh hanya disampaikan lewat warna atau suara. Gunakan label, teks, atau bentuk pendukung.",
+      "source_handling": "Sediakan field sumber untuk fakta, data, dan berita. Tampilkan sumber pada scene yang relevan atau kartu akhir."
+    }
+  },
+  "themes": [
+    {
+      "id": "hari_1_vs_hari_90",
+      "title": "Hari 1 vs Hari 90",
+      "category": "progress_story",
+      "core_objective": "Membangun rasa penasaran melalui kontras kondisi awal dan hasil setelah proses panjang. Angka akhir harus terasa sebagai hasil dari perjalanan, bukan klaim instan.",
+      "recommended_duration_seconds": "35-55",
+      "narrative": {
+        "premise": "Tunjukkan perubahan dari titik awal yang sederhana menuju kondisi yang berbeda setelah 90 hari. Cerita harus menjelaskan proses, hambatan, dan keputusan yang membuat perubahan terjadi.",
+        "structure": [
+          {
+            "beat": "Hook",
+            "time": "0-3 detik",
+            "purpose": "Memancing pertanyaan tentang perubahan yang akan ditampilkan.",
+            "voiceover": "Hari pertama, hasilnya masih nol. Sembilan puluh hari kemudian, angkanya berubah. Tapi prosesnya tidak semudah kelihatannya.",
+            "onscreen": "HARI 1: Rp0 → HARI 90: [HASIL]"
+          },
+          {
+            "beat": "Konteks",
+            "time": "3-9 detik",
+            "purpose": "Menjelaskan siapa atau apa yang sedang berkembang, target awal, dan batas waktu.",
+            "voiceover": "Targetnya sederhana: [TARGET]. Modal awalnya [KONDISI AWAL], dengan waktu hanya [WAKTU]."
+          },
+          {
+            "beat": "Perjalanan",
+            "time": "9-30 detik",
+            "purpose": "Menyampaikan tiga fase perjalanan. Setiap fase harus memiliki kejadian dan konsekuensi yang jelas.",
+            "voiceover": "Minggu pertama, [LANGKAH AWAL]. Lalu muncul masalah [HAMBATAN]. Di titik itu, strateginya diubah menjadi [PERUBAHAN]."
+          },
+          {
+            "beat": "Hasil",
+            "time": "30-43 detik",
+            "purpose": "Mengungkap hasil dengan konteks agar angka tidak menyesatkan.",
+            "voiceover": "Hari ke-90, hasilnya mencapai [HASIL]. Angka ini bukan muncul dalam semalam. Ada [JUMLAH] kali percobaan dan beberapa keputusan yang harus diperbaiki."
+          },
+          {
+            "beat": "Insight dan CTA",
+            "time": "43-55 detik",
+            "purpose": "Meninggalkan satu pelajaran yang mudah diingat dan mengundang respons.",
+            "voiceover": "Pelajarannya, kemajuan sering datang dari evaluasi kecil yang dilakukan berulang. Menurutmu, bagian tersulit ada di awal, tengah, atau akhir?",
+            "onscreen": "Bagian tersulit menurutmu yang mana?"
+          }
+        ],
+        "delivery": "Narator bercerita seperti membagikan pengalaman nyata. Mulai tenang, naikkan energi saat hambatan muncul, lalu turunkan tempo saat menyampaikan pelajaran. Hindari nada motivator yang berlebihan."
+      },
+      "visual_direction": {
+        "visual_concept": "Perjalanan divisualisasikan sebagai grafik progres yang memiliki kenaikan, penurunan, dan titik balik. Jangan membuat grafik selalu naik lurus.",
+        "scenes": [
+          {
+            "visual": "Angka awal besar di tengah layar, lalu berubah menjadi angka hasil dengan transisi yang tegas.",
+            "motion": "Counter angka dan scale-in singkat."
+          },
+          {
+            "visual": "Timeline 90 hari dengan tiga milestone utama.",
+            "motion": "Milestone muncul satu per satu mengikuti narasi."
+          },
+          {
+            "visual": "Grafik garis bergerak. Sisipkan penurunan saat hambatan diceritakan.",
+            "motion": "Garis digambar bertahap, kamera mendekat pada titik terendah dan titik balik."
+          },
+          {
+            "visual": "Angka akhir disandingkan dengan konteks target awal.",
+            "motion": "Counter berhenti, label dan catatan konteks muncul."
+          }
+        ],
+        "visual_metaphors": [
+          "timeline",
+          "progress line",
+          "milestone markers",
+          "turning point"
+        ],
+        "avoid": [
+          "grafik naik tanpa data pendukung",
+          "angka hasil tanpa periode atau konteks",
+          "visual uang berlebihan jika topik bukan keuangan"
+        ]
+      },
+      "information_design": {
+        "key_information": [
+          "kondisi awal",
+          "target",
+          "hambatan utama",
+          "perubahan strategi",
+          "hasil akhir",
+          "pelajaran"
+        ],
+        "proof_requirement": "Jika menggunakan angka finansial atau performa, jelaskan sumber, periode, dan apakah angka tersebut simulasi, contoh, atau hasil nyata.",
+        "on_screen_text": "Gunakan frasa pendek. Maksimal satu gagasan utama pada satu tampilan."
+      },
+      "remotion_notes": {
+        "composition": "Gunakan komposisi modular untuk headline, timeline, grafik, dan angka. Setiap milestone harus memiliki data dan label dari input JSON.",
+        "animation": "Animasi grafik mengikuti progres narasi. Titik penting diberi zoom atau emphasis singkat, bukan gerakan terus-menerus.",
+        "audio_sync": "Perubahan angka dan milestone disinkronkan dengan kata kunci VO. SFX cukup pada pergantian fase dan pengungkapan hasil."
+      },
+      "content_inputs": [
+        "topik atau aktivitas",
+        "nilai awal",
+        "target",
+        "periode 90 hari atau periode pengganti",
+        "tiga milestone",
+        "hambatan",
+        "perubahan strategi",
+        "hasil dan sumber data",
+        "pelajaran utama"
+      ],
+      "quality_checks": [
+        "Apakah perubahan dapat dipahami tanpa membaca caption panjang?",
+        "Apakah setiap milestone memiliki kontribusi terhadap hasil?",
+        "Apakah hasil diberi konteks dan tidak menyesatkan?"
+      ]
+    },
+    {
+      "id": "ekspektasi_vs_realita",
+      "title": "Ekspektasi vs Realita",
+      "category": "relatable_comedy",
+      "core_objective": "Membangun pengenalan diri melalui perbandingan situasi ideal dan kenyataan. Komedi harus muncul dari detail yang spesifik, bukan sekadar visual berantakan.",
+      "recommended_duration_seconds": "30-45",
+      "narrative": {
+        "premise": "Ambil satu aktivitas yang akrab bagi audiens, lalu tunjukkan jarak antara bayangan awal dan kejadian sebenarnya. Setiap pasangan situasi meningkatkan intensitas komedi.",
+        "structure": [
+          {
+            "beat": "Hook",
+            "time": "0-3 detik",
+            "purpose": "Memperlihatkan kontras sejak frame pertama.",
+            "voiceover": "Katanya kerja di bidang [TOPIK] itu kelihatannya seperti ini. Kenyataannya?",
+            "onscreen": "EKSPEKTASI  |  REALITA"
+          },
+          {
+            "beat": "Pasangan 1",
+            "time": "3-10 detik",
+            "purpose": "Mengenalkan kontras yang ringan dan mudah dikenali.",
+            "voiceover": "Ekspektasinya [SITUASI IDEAL]. Realitanya [KEJADIAN SEBENARNYA]."
+          },
+          {
+            "beat": "Pasangan 2 dan 3",
+            "time": "10-27 detik",
+            "purpose": "Menaikkan intensitas dengan detail yang semakin spesifik.",
+            "voiceover": "Lalu ada [SITUASI KEDUA]. Belum selesai, muncul lagi [SITUASI KETIGA]."
+          },
+          {
+            "beat": "Puncak dan twist",
+            "time": "27-38 detik",
+            "purpose": "Memberi kejutan yang masih masuk akal dalam konteks cerita.",
+            "voiceover": "Dan bagian paling lucu, setelah semua itu, ternyata [TWIST]."
+          },
+          {
+            "beat": "CTA",
+            "time": "38-45 detik",
+            "purpose": "Mengundang audiens berbagi pengalaman serupa.",
+            "voiceover": "Kalau kamu, bagian ekspektasi atau realita yang paling sering terjadi?",
+            "onscreen": "Tag teman yang mengalami ini."
+          }
+        ],
+        "delivery": "Gunakan dua karakter penyampaian yang berbeda. Ekspektasi terdengar yakin dan tertata. Realita terdengar spontan, sedikit lelah, atau datar sesuai konteks. Jangan memaksakan teriakan."
+      },
+      "visual_direction": {
+        "visual_concept": "Layar terbagi menjadi dua area konsisten. Sisi ekspektasi bersih dan teratur. Sisi realita lebih padat, kacau, atau bergerak cepat.",
+        "scenes": [
+          {
+            "visual": "Dua panel muncul bersamaan dengan label Ekspektasi dan Realita.",
+            "motion": "Split reveal dari tengah."
+          },
+          {
+            "visual": "Adegan ideal dan kejadian nyata ditampilkan sebagai pasangan yang mudah dibandingkan.",
+            "motion": "Wipe horizontal atau pergantian sinkron."
+          },
+          {
+            "visual": "Detail kecil pada sisi realita diberi penekanan visual.",
+            "motion": "Punch-in singkat pada objek atau teks lucu."
+          },
+          {
+            "visual": "Twist memenuhi layar sebelum kembali ke layout dua panel.",
+            "motion": "Freeze singkat lalu reveal."
+          }
+        ],
+        "visual_metaphors": [
+          "split screen",
+          "contrast",
+          "visual escalation",
+          "freeze frame"
+        ],
+        "avoid": [
+          "membuat sisi realita terlalu ramai hingga sulit dibaca",
+          "mengulang punchline yang sama",
+          "humor yang merendahkan kelompok tertentu"
+        ]
+      },
+      "information_design": {
+        "key_information": [
+          "konteks aktivitas",
+          "tiga sampai lima pasangan situasi",
+          "twist akhir"
+        ],
+        "proof_requirement": "Tidak membutuhkan data, tetapi situasi harus masuk akal dan spesifik untuk niche yang dipilih.",
+        "on_screen_text": "Setiap panel memakai kalimat singkat. Pastikan pasangan kiri dan kanan dapat dibaca dalam waktu yang seimbang."
+      },
+      "remotion_notes": {
+        "composition": "Dua Sequence paralel dengan area visual yang konsisten. Pastikan elemen penting tidak tertutup teks atau caption.",
+        "animation": "Wipe untuk perpindahan pasangan, glitch hanya sebagai aksen pada sisi realita, dan freeze singkat untuk punchline.",
+        "audio_sync": "Gunakan jeda mikro sebelum punchline. SFX komedi tidak boleh menutupi VO."
+      },
+      "content_inputs": [
+        "niche",
+        "audiens sasaran",
+        "tiga sampai lima situasi ekspektasi",
+        "pasangan realita",
+        "twist",
+        "CTA"
+      ],
+      "quality_checks": [
+        "Apakah kontras langsung terbaca?",
+        "Apakah setiap pasangan semakin kuat?",
+        "Apakah twist terasa relevan dan tidak dipaksakan?"
+      ]
+    },
+    {
+      "id": "cerita_lewat_chat",
+      "title": "Cerita lewat Chat",
+      "category": "micro_storytelling",
+      "core_objective": "Membuat penonton mengikuti percakapan sampai pesan terakhir. Ketegangan dibangun melalui informasi yang dibuka sedikit demi sedikit.",
+      "recommended_duration_seconds": "35-60",
+      "narrative": {
+        "premise": "Sajikan cerita dalam bentuk percakapan digital. Setiap pesan harus mengubah pemahaman penonton atau meningkatkan rasa ingin tahu.",
+        "structure": [
+          {
+            "beat": "Hook",
+            "time": "0-4 detik",
+            "purpose": "Membuka situasi yang terasa mendesak atau janggal.",
+            "voiceover": "Jam dua lewat empat belas. Sebuah pesan masuk, padahal semua orang seharusnya sudah tidur.",
+            "onscreen": "02.14  |  Pesan baru"
+          },
+          {
+            "beat": "Pemicu",
+            "time": "4-12 detik",
+            "purpose": "Memperkenalkan masalah tanpa langsung menjelaskan semuanya.",
+            "voiceover": "Pesannya cuma satu: [PESAN PEMICU]."
+          },
+          {
+            "beat": "Eskalasi",
+            "time": "12-35 detik",
+            "purpose": "Menaikkan ketegangan lewat balasan singkat dan informasi yang belum lengkap.",
+            "voiceover": "Aku tanya apa yang terjadi. Dia menjawab [BALASAN]. Lalu mengirim satu pesan lagi: [PESAN LANJUTAN]."
+          },
+          {
+            "beat": "Twist",
+            "time": "35-48 detik",
+            "purpose": "Mengubah arti percakapan atau mengungkap fakta yang tidak diduga.",
+            "voiceover": "Baru setelah pesan terakhir masuk, aku sadar bahwa [TWIST]."
+          },
+          {
+            "beat": "Penutup",
+            "time": "48-60 detik",
+            "purpose": "Memberi akhir yang jelas atau menyisakan pertanyaan yang disengaja.",
+            "voiceover": "Kadang satu pesan pendek bisa mengubah seluruh cerita. Kalau kamu menerima pesan seperti itu, apa yang akan kamu lakukan?",
+            "onscreen": "Kamu akan balas atau abaikan?"
+          }
+        ],
+        "delivery": "Narator intim dan terkontrol, seperti menceritakan kejadian kepada satu orang. Jangan membacakan setiap bubble secara berlebihan. Beri ruang agar penonton sempat membaca pesan."
+      },
+      "visual_direction": {
+        "visual_concept": "Antarmuka chat menjadi panggung utama. Fokus pada urutan pesan, jeda, dan perubahan suasana percakapan.",
+        "scenes": [
+          {
+            "visual": "Latar sederhana dengan indikator waktu dan notifikasi masuk.",
+            "motion": "Notifikasi muncul, lalu bubble pertama masuk."
+          },
+          {
+            "visual": "Bubble chat muncul bergantian dengan nama pengirim yang konsisten.",
+            "motion": "Typing indicator, lalu teks muncul per bagian."
+          },
+          {
+            "visual": "Jeda kosong atau indikator mengetik lebih lama menjelang twist.",
+            "motion": "Tahan layar untuk membangun antisipasi."
+          },
+          {
+            "visual": "Pesan terakhir tampil lebih dominan dan mengubah konteks cerita.",
+            "motion": "Emphasis pada bubble terakhir, lalu cut ke penutup."
+          }
+        ],
+        "visual_metaphors": [
+          "chat bubbles",
+          "typing indicator",
+          "timestamp",
+          "read receipt"
+        ],
+        "avoid": [
+          "menampilkan terlalu banyak pesan sekaligus",
+          "teks bubble terlalu panjang",
+          "meniru detail pribadi atau percakapan nyata tanpa izin"
+        ]
+      },
+      "information_design": {
+        "key_information": [
+          "waktu",
+          "pengirim",
+          "pesan pemicu",
+          "eskalasi",
+          "twist",
+          "resolusi"
+        ],
+        "proof_requirement": "Jika cerita fiksi, jangan mengemasnya sebagai bukti kejadian nyata. Jika berdasarkan kejadian nyata, samarkan identitas dan detail pribadi.",
+        "on_screen_text": "Bubble harus ringkas dan terbaca. Narasi VO boleh memberi konteks yang tidak muat di bubble."
+      },
+      "remotion_notes": {
+        "composition": "Buat komponen bubble reusable dengan variasi pengirim, alignment, status, dan waktu. Data pesan disimpan sebagai array berurutan.",
+        "animation": "Gunakan spring ringan untuk bubble, typing indicator sebelum pesan tertentu, dan reveal teks sesuai kebutuhan. Hindari animasi per karakter yang terlalu lambat.",
+        "audio_sync": "SFX notifikasi hanya pada pesan penting. Jeda audio sebelum twist harus disengaja."
+      },
+      "content_inputs": [
+        "premis cerita",
+        "waktu kejadian",
+        "daftar pesan berurutan",
+        "pengirim tiap pesan",
+        "durasi jeda",
+        "twist",
+        "resolusi"
+      ],
+      "quality_checks": [
+        "Apakah setiap pesan mendorong cerita?",
+        "Apakah twist dapat dipahami dari pesan sebelumnya?",
+        "Apakah penonton memiliki waktu membaca semua bubble?"
+      ]
+    },
+    {
+      "id": "mitos_vs_fakta",
+      "title": "Mitos vs Fakta",
+      "category": "educational_opinion",
+      "core_objective": "Menguji anggapan populer dengan penjelasan yang bernalar dan bukti yang relevan. Kontroversi digunakan untuk membuka diskusi, bukan memancing klaim palsu.",
+      "recommended_duration_seconds": "40-60",
+      "narrative": {
+        "premise": "Pilih tiga mitos dalam satu topik. Untuk setiap mitos, jelaskan mengapa orang mempercayainya, apa faktanya, dan dalam kondisi apa pengecualian berlaku.",
+        "structure": [
+          {
+            "beat": "Hook kontra",
+            "time": "0-4 detik",
+            "purpose": "Menghentikan scroll dengan klaim yang menantang asumsi.",
+            "voiceover": "Ada satu saran tentang [TOPIK] yang sering dianggap benar. Padahal, untuk kondisi tertentu, saran itu justru bisa keliru.",
+            "onscreen": "MITOS atau FAKTA?"
+          },
+          {
+            "beat": "Mitos 1",
+            "time": "4-18 detik",
+            "purpose": "Menyebut anggapan dan mengujinya.",
+            "voiceover": "Mitos pertama: [MITOS]. Faktanya, [PENJELASAN DAN KONTEKS]."
+          },
+          {
+            "beat": "Mitos 2 dan 3",
+            "time": "18-45 detik",
+            "purpose": "Memberi dua pengujian tambahan dengan contoh atau bukti.",
+            "voiceover": "Mitos kedua: [MITOS]. Yang perlu dilihat adalah [FAKTA]. Mitos ketiga: [MITOS]. Ini berlaku jika [KONDISI]."
+          },
+          {
+            "beat": "Sintesis",
+            "time": "45-54 detik",
+            "purpose": "Menyatukan poin menjadi prinsip yang dapat diterapkan.",
+            "voiceover": "Jadi, jangan mengambil satu saran tanpa melihat kondisi, tujuan, dan risikonya."
+          },
+          {
+            "beat": "CTA",
+            "time": "54-60 detik",
+            "purpose": "Mengundang diskusi berbasis alasan.",
+            "voiceover": "Mitos mana yang paling sering kamu dengar? Tulis alasannya juga."
+          }
+        ],
+        "delivery": "Tegas, analitis, dan tidak menggurui. Beri penekanan pada kata mitos dan fakta, lalu jelaskan dengan tempo lebih lambat saat menyampaikan bukti atau batasan."
+      },
+      "visual_direction": {
+        "visual_concept": "Setiap mitos diperkenalkan sebagai klaim besar, lalu diuji menggunakan diagram, angka, atau contoh sederhana.",
+        "scenes": [
+          {
+            "visual": "Klaim mitos muncul sebagai headline.",
+            "motion": "Headline masuk tegas, kemudian diberi coretan saat diuji."
+          },
+          {
+            "visual": "Label fakta menggantikan mitos.",
+            "motion": "Wipe atau stamp reveal yang tidak berlebihan."
+          },
+          {
+            "visual": "Bukti divisualisasikan melalui diagram sederhana atau perbandingan.",
+            "motion": "Elemen diagram muncul sesuai urutan penjelasan."
+          },
+          {
+            "visual": "Tiga poin dirangkum menjadi satu prinsip.",
+            "motion": "Kartu ringkasan tersusun di layar."
+          }
+        ],
+        "visual_metaphors": [
+          "claim card",
+          "strike-through",
+          "evidence diagram",
+          "fact label"
+        ],
+        "avoid": [
+          "menampilkan klaim sensasional tanpa konteks",
+          "menggunakan warna atau efek sebagai pengganti bukti",
+          "menyederhanakan isu kompleks hingga salah"
+        ]
+      },
+      "information_design": {
+        "key_information": [
+          "klaim mitos",
+          "alasan mitos dipercaya",
+          "fakta",
+          "bukti atau contoh",
+          "batasan kondisi"
+        ],
+        "proof_requirement": "Cantumkan sumber tepercaya untuk klaim faktual. Bedakan opini, interpretasi, dan fakta terverifikasi. Untuk topik kesehatan, hukum, dan keuangan, gunakan sumber otoritatif dan hindari saran personal.",
+        "on_screen_text": "Tampilkan satu klaim dan satu koreksi dalam satu adegan. Sumber dapat ditampilkan ringkas pada bagian bawah atau kartu akhir."
+      },
+      "remotion_notes": {
+        "composition": "Gunakan komponen ClaimCard, EvidencePanel, dan SummaryCard. Tiap segmen menerima data klaim, fakta, penjelasan, serta sumber.",
+        "animation": "Coretan mengikuti momen kata mitos. Diagram bergerak hanya untuk memperjelas hubungan antarvariabel.",
+        "audio_sync": "Gunakan impact ringan saat klaim diuji. Prioritaskan kejernihan VO ketika bukti dibacakan."
+      },
+      "content_inputs": [
+        "topik",
+        "tiga mitos",
+        "fakta koreksi",
+        "penjelasan dan batasan",
+        "contoh atau data",
+        "URL atau nama sumber"
+      ],
+      "quality_checks": [
+        "Apakah klaim awal mewakili mitos yang benar-benar beredar?",
+        "Apakah koreksi didukung sumber?",
+        "Apakah pengecualian dan batasan disebutkan?"
+      ]
+    },
+    {
+      "id": "before_after_refactor",
+      "title": "Before/After Refactor atau Redesign",
+      "category": "technical_transformation",
+      "core_objective": "Menunjukkan nilai perubahan teknis atau desain melalui perbandingan yang dapat diamati. Penonton harus memahami masalah awal, keputusan perbaikan, dan dampaknya.",
+      "recommended_duration_seconds": "40-60",
+      "narrative": {
+        "premise": "Mulai dari masalah yang terlihat. Pilih maksimal dua perubahan utama, jelaskan alasan teknisnya, lalu tampilkan hasil yang terukur atau dapat diverifikasi.",
+        "structure": [
+          {
+            "beat": "Hook",
+            "time": "0-4 detik",
+            "purpose": "Menampilkan kondisi awal dan rasa ingin tahu tentang perbaikannya.",
+            "voiceover": "Ini kondisi awal [KODE/DESAIN] yang saya temukan. Sekilas berjalan, tetapi ada masalah di baliknya.",
+            "onscreen": "BEFORE"
+          },
+          {
+            "beat": "Diagnosis",
+            "time": "4-15 detik",
+            "purpose": "Menjelaskan masalah utama dan konsekuensinya.",
+            "voiceover": "Masalah pertama ada di [MASALAH]. Akibatnya [DAMPAK]. Selain itu, [MASALAH KEDUA] membuat perubahan berikutnya semakin sulit."
+          },
+          {
+            "beat": "Perbaikan",
+            "time": "15-38 detik",
+            "purpose": "Menjelaskan perubahan dan alasan pemilihannya.",
+            "voiceover": "Saya mulai dengan [PERUBAHAN SATU], supaya [ALASAN]. Lalu [PERUBAHAN DUA] untuk mengurangi [MASALAH]."
+          },
+          {
+            "beat": "After",
+            "time": "38-51 detik",
+            "purpose": "Memperlihatkan hasil dan membandingkan secara adil.",
+            "voiceover": "Hasil akhirnya menjadi seperti ini. [HASIL TERUKUR]. Struktur lebih mudah dibaca dan [DAMPAK TAMBAHAN].",
+            "onscreen": "AFTER"
+          },
+          {
+            "beat": "Insight dan CTA",
+            "time": "51-60 detik",
+            "purpose": "Menyampaikan prinsip yang bisa dipakai penonton.",
+            "voiceover": "Refactor yang baik harus menyelesaikan masalah yang jelas. Bukan sekadar memindahkan kode agar terlihat berbeda. Bagian mana yang ingin kamu bedah berikutnya?"
+          }
+        ],
+        "delivery": "Gunakan gaya engineer yang menjelaskan keputusan kerja. Sebut istilah teknis, lalu langsung terjemahkan dampaknya dengan bahasa sederhana. Jangan mengklaim peningkatan performa tanpa pengukuran."
+      },
+      "visual_direction": {
+        "visual_concept": "Transformasi visual dari kondisi awal ke kondisi akhir. Perubahan harus dapat ditelusuri, bukan sekadar pergantian tampilan.",
+        "scenes": [
+          {
+            "visual": "Screenshot atau potongan kode/desain sebelum perubahan.",
+            "motion": "Pan perlahan ke bagian bermasalah, lalu highlight."
+          },
+          {
+            "visual": "Masalah diberi anotasi singkat.",
+            "motion": "Callout dan garis penunjuk masuk sesuai narasi."
+          },
+          {
+            "visual": "Perubahan utama ditampilkan dalam potongan terfokus.",
+            "motion": "Typing atau reveal kode dengan syntax highlighting."
+          },
+          {
+            "visual": "Perbandingan before-after dengan area yang sama.",
+            "motion": "Wipe slider atau split comparison."
+          },
+          {
+            "visual": "Hasil pengujian atau ringkasan perubahan.",
+            "motion": "Metric card atau checklist muncul."
+          }
+        ],
+        "visual_metaphors": [
+          "code diff",
+          "highlight region",
+          "before-after slider",
+          "metric card"
+        ],
+        "avoid": [
+          "kode terlalu kecil",
+          "menampilkan seluruh file tanpa fokus",
+          "mengklaim lebih cepat tanpa benchmark",
+          "menyembunyikan trade-off"
+        ]
+      },
+      "information_design": {
+        "key_information": [
+          "kondisi awal",
+          "masalah",
+          "akar penyebab",
+          "perubahan",
+          "hasil",
+          "trade-off"
+        ],
+        "proof_requirement": "Untuk klaim performa, tampilkan metode ukur, kondisi pengujian, dan angka sebelum-sesudah. Jika tidak ada benchmark, gunakan klaim kualitatif yang terbatas.",
+        "on_screen_text": "Kode yang tampil harus pendek dan relevan dengan kalimat VO. Beri highlight pada baris yang sedang dibahas."
+      },
+      "remotion_notes": {
+        "composition": "Buat panel code, annotation, diff, dan metric yang dapat digunakan ulang. Data kode dan highlight disimpan terpisah dari layout.",
+        "animation": "Typing hanya untuk potongan pendek. Gunakan wipe untuk perbandingan dan callout untuk menunjukkan bagian yang berubah.",
+        "audio_sync": "Setiap highlight muncul tepat saat masalah atau perbaikannya disebut. Hindari SFX keyboard yang terus-menerus."
+      },
+      "content_inputs": [
+        "jenis proyek",
+        "before snippet atau gambar",
+        "masalah utama",
+        "akar penyebab",
+        "perubahan satu dan dua",
+        "after snippet atau gambar",
+        "hasil pengukuran",
+        "trade-off"
+      ],
+      "quality_checks": [
+        "Apakah masalah awal terlihat jelas?",
+        "Apakah alasan perubahan dijelaskan?",
+        "Apakah hasil didukung bukti?",
+        "Apakah contoh kode tetap terbaca?"
+      ]
+    },
+    {
+      "id": "cara_kerja_x_45_detik",
+      "title": "Cara Kerja X dalam 45 Detik",
+      "category": "explainer",
+      "core_objective": "Mengubah konsep atau proses yang kompleks menjadi penjelasan singkat yang akurat. Penonton harus memahami gambaran besar dan urutan proses setelah menonton.",
+      "recommended_duration_seconds": "40-55",
+      "narrative": {
+        "premise": "Pilih satu pertanyaan spesifik. Jelaskan proses dari input hingga output melalui tiga atau empat tahap. Hindari memasukkan terlalu banyak konsep dalam satu video.",
+        "structure": [
+          {
+            "beat": "Pertanyaan hook",
+            "time": "0-4 detik",
+            "purpose": "Mengangkat rasa ingin tahu dari fenomena sehari-hari.",
+            "voiceover": "Pernah bertanya bagaimana [FENOMENA] bisa terjadi? Prosesnya ternyata melewati beberapa tahap.",
+            "onscreen": "Bagaimana [X] bekerja?"
+          },
+          {
+            "beat": "Gambaran besar",
+            "time": "4-10 detik",
+            "purpose": "Memberi model mental sebelum detail.",
+            "voiceover": "Sederhananya, proses ini dimulai dari [INPUT] dan berakhir di [OUTPUT]."
+          },
+          {
+            "beat": "Tahap 1 dan 2",
+            "time": "10-27 detik",
+            "purpose": "Menjelaskan aliran proses dengan urutan sebab-akibat.",
+            "voiceover": "Pertama, [TAHAP SATU]. Setelah itu, [TAHAP DUA] memastikan [FUNGSI]."
+          },
+          {
+            "beat": "Tahap 3 dan 4",
+            "time": "27-42 detik",
+            "purpose": "Menjelaskan penyelesaian proses dan hasilnya.",
+            "voiceover": "Berikutnya, [TAHAP TIGA]. Terakhir, [TAHAP EMPAT] membuat hasilnya bisa digunakan."
+          },
+          {
+            "beat": "Fakta kunci dan CTA",
+            "time": "42-55 detik",
+            "purpose": "Menambahkan satu detail bernilai dan menguji pemahaman.",
+            "voiceover": "Hal yang sering terlewat adalah [FAKTA KUNCI]. Bagian mana yang perlu dijelaskan lebih dalam?",
+            "onscreen": "Simpan untuk dipelajari lagi."
+          }
+        ],
+        "delivery": "Jelaskan seperti pengajar yang sedang menggambar di papan. Satu kalimat untuk satu langkah. Beri jeda pendek saat berpindah tahap dan jangan membaca istilah teknis terlalu cepat."
+      },
+      "visual_direction": {
+        "visual_concept": "Satu diagram utama berkembang secara bertahap. Objek, node, dan panah ditambahkan saat narator menjelaskan proses.",
+        "scenes": [
+          {
+            "visual": "Pertanyaan muncul bersama objek atau fenomena yang dibahas.",
+            "motion": "Headline reveal, lalu objek utama masuk."
+          },
+          {
+            "visual": "Diagram overview memperlihatkan input, proses, dan output.",
+            "motion": "Alur garis digambar dari kiri ke kanan."
+          },
+          {
+            "visual": "Tahap pertama disorot sementara tahap lain meredup.",
+            "motion": "Focus highlight berpindah mengikuti VO."
+          },
+          {
+            "visual": "Seluruh diagram aktif kembali untuk menunjukkan hubungan antarbagian.",
+            "motion": "Aliran bergerak melewati node secara berurutan."
+          },
+          {
+            "visual": "Fakta kunci tampil sebagai kartu ringkas.",
+            "motion": "Callout muncul setelah diagram selesai."
+          }
+        ],
+        "visual_metaphors": [
+          "process flow",
+          "system diagram",
+          "data or energy flow",
+          "step labels"
+        ],
+        "avoid": [
+          "diagram penuh sejak awal",
+          "istilah tanpa definisi",
+          "analogi yang mengubah makna teknis",
+          "detail industri sensitif atau informasi internal"
+        ]
+      },
+      "information_design": {
+        "key_information": [
+          "pertanyaan inti",
+          "input",
+          "tiga atau empat tahap",
+          "output",
+          "fakta kunci"
+        ],
+        "proof_requirement": "Verifikasi urutan proses dan istilah menggunakan dokumentasi resmi, buku, standar, atau sumber primer yang relevan. Untuk infrastruktur, jelaskan pada level umum.",
+        "on_screen_text": "Label diagram terdiri dari satu hingga empat kata. Penjelasan lengkap disampaikan melalui VO."
+      },
+      "remotion_notes": {
+        "composition": "Bangun diagram sebagai komponen SVG atau elemen terstruktur. Setiap tahap memiliki status idle, active, dan completed.",
+        "animation": "Garis aliran digambar bertahap. Node aktif mendapat emphasis saat dibahas. Pastikan animasi tidak mendahului penjelasan.",
+        "audio_sync": "Gunakan transisi audio halus antar tahap. SFX aliran atau klik hanya jika membantu memahami perpindahan."
+      },
+      "content_inputs": [
+        "pertanyaan spesifik",
+        "fenomena",
+        "input",
+        "tiga atau empat tahap",
+        "output",
+        "fakta kunci",
+        "referensi"
+      ],
+      "quality_checks": [
+        "Apakah penonton memahami proses secara utuh?",
+        "Apakah urutan sebab-akibat akurat?",
+        "Apakah diagram dan VO menjelaskan hal yang sama?"
+      ]
+    },
+    {
+      "id": "tebak_dalam_5_detik",
+      "title": "Tebak dalam 5 Detik",
+      "category": "interactive_quiz",
+      "core_objective": "Membuat penonton aktif berpikir sebelum jawaban dibuka. Pertanyaan harus jelas, memiliki jawaban yang dapat dipertanggungjawabkan, dan penjelasan setelah reveal.",
+      "recommended_duration_seconds": "30-50",
+      "narrative": {
+        "premise": "Berikan satu pertanyaan utama atau dua pertanyaan bertingkat. Waktu berpikir harus nyata. Setelah jawaban muncul, jelaskan alasan agar video tetap memberi nilai edukasi.",
+        "structure": [
+          {
+            "beat": "Pertanyaan",
+            "time": "0-5 detik",
+            "purpose": "Menyajikan tantangan sebelum penonton mengetahui jawaban.",
+            "voiceover": "Coba jawab sebelum waktunya habis. Jika [KONDISI], apa hasilnya?",
+            "onscreen": "TEBAK JAWABANNYA"
+          },
+          {
+            "beat": "Waktu berpikir",
+            "time": "5-10 detik",
+            "purpose": "Memberi waktu untuk memilih jawaban.",
+            "voiceover": "Pilih A, B, atau C. Waktumu lima detik.",
+            "onscreen": "5... 4... 3... 2... 1..."
+          },
+          {
+            "beat": "Reveal",
+            "time": "10-16 detik",
+            "purpose": "Mengungkap jawaban secara tegas.",
+            "voiceover": "Jawabannya adalah [JAWABAN]."
+          },
+          {
+            "beat": "Penjelasan",
+            "time": "16-35 detik",
+            "purpose": "Menjelaskan alasan dan konsep yang diuji.",
+            "voiceover": "Alasannya, [PENJELASAN]. Perhatikan bagian [DETAIL], karena itu yang menentukan hasil."
+          },
+          {
+            "beat": "Tantangan lanjutan dan CTA",
+            "time": "35-50 detik",
+            "purpose": "Mendorong komentar atau replay dengan pertanyaan berikutnya.",
+            "voiceover": "Sekarang coba soal yang lebih sulit: [SOAL LANJUTAN]. Tulis jawabanmu sebelum melihat pembahasan berikutnya.",
+            "onscreen": "Tulis jawabanmu."
+          }
+        ],
+        "delivery": "Interaktif dan energik, tetapi tetap jelas. Beri jeda selama countdown. Saat reveal, gunakan penekanan suara singkat, lalu kembali ke tempo penjelasan."
+      },
+      "visual_direction": {
+        "visual_concept": "Pertanyaan menjadi pusat perhatian. Countdown memberi tekanan waktu, kemudian jawaban dan penjelasan mengambil alih.",
+        "scenes": [
+          {
+            "visual": "Pertanyaan dan pilihan jawaban tampil sejak frame pertama.",
+            "motion": "Headline masuk cepat, pilihan muncul berurutan."
+          },
+          {
+            "visual": "Timer lima detik dan progress ring atau bar.",
+            "motion": "Countdown sinkron dengan angka dan indikator waktu."
+          },
+          {
+            "visual": "Jawaban benar ditandai setelah countdown.",
+            "motion": "Reveal dengan spring singkat dan highlight."
+          },
+          {
+            "visual": "Langkah penjelasan atau visualisasi hasil.",
+            "motion": "Diagram atau potongan kode menandai alasan jawaban."
+          },
+          {
+            "visual": "Soal lanjutan tampil sebagai penutup.",
+            "motion": "Kartu soal baru masuk dengan transisi."
+          }
+        ],
+        "visual_metaphors": [
+          "countdown timer",
+          "answer cards",
+          "correct reveal",
+          "progress indicator"
+        ],
+        "avoid": [
+          "timer palsu yang tidak sesuai durasi",
+          "jawaban ambigu",
+          "reveal sebelum waktu berpikir selesai",
+          "efek dramatis yang mengaburkan jawaban"
+        ]
+      },
+      "information_design": {
+        "key_information": [
+          "pertanyaan",
+          "pilihan",
+          "jawaban benar",
+          "alasan",
+          "soal lanjutan"
+        ],
+        "proof_requirement": "Pastikan kunci jawaban benar. Jika terdapat lebih dari satu interpretasi, jelaskan asumsi yang digunakan.",
+        "on_screen_text": "Pertanyaan dan opsi harus terbaca tanpa menghentikan video. Jangan menaruh penjelasan panjang pada layar countdown."
+      },
+      "remotion_notes": {
+        "composition": "Buat QuestionCard, Countdown, AnswerReveal, dan ExplanationPanel sebagai komponen terpisah. Data soal berasal dari input JSON.",
+        "animation": "Timer mengikuti frame video secara deterministik. Reveal jawaban baru berjalan setelah countdown selesai.",
+        "audio_sync": "Tick boleh digunakan selama countdown dengan volume rendah. Beri impact ringan saat jawaban terungkap."
+      },
+      "content_inputs": [
+        "pertanyaan",
+        "pilihan jawaban",
+        "jawaban benar",
+        "asumsi",
+        "penjelasan",
+        "soal lanjutan"
+      ],
+      "quality_checks": [
+        "Apakah pertanyaan dapat dipahami dalam lima detik?",
+        "Apakah countdown memberi waktu yang cukup?",
+        "Apakah pembahasan menjelaskan mengapa jawaban benar?"
+      ]
+    },
+    {
+      "id": "ranking_tier_list",
+      "title": "Ranking atau Tier List",
+      "category": "ranked_education",
+      "core_objective": "Menyusun beberapa item berdasarkan kriteria yang eksplisit. Penonton memahami alasan peringkat, bukan hanya melihat daftar yang bergerak.",
+      "recommended_duration_seconds": "40-60",
+      "narrative": {
+        "premise": "Tentukan satu kriteria ranking. Urutkan lima sampai tujuh item dari posisi terbawah menuju teratas. Setiap item mendapat alasan singkat yang sebanding.",
+        "structure": [
+          {
+            "beat": "Hook",
+            "time": "0-4 detik",
+            "purpose": "Menjanjikan ranking dengan kriteria yang jelas.",
+            "voiceover": "Saya urutkan [JUMLAH] [ITEM] berdasarkan [KRITERIA]. Nomor satu mungkin paling sering diremehkan.",
+            "onscreen": "RANKING [TOPIK]"
+          },
+          {
+            "beat": "Kriteria",
+            "time": "4-9 detik",
+            "purpose": "Mencegah ranking terasa acak atau menyesatkan.",
+            "voiceover": "Penilaian ini berdasarkan [KRITERIA SATU] dan [KRITERIA DUA], bukan sekadar selera."
+          },
+          {
+            "beat": "Ranking bawah ke tengah",
+            "time": "9-35 detik",
+            "purpose": "Membangun ritme dan memberi alasan untuk tiap posisi.",
+            "voiceover": "Di posisi [RANK], ada [ITEM]. Alasannya [ALASAN]. Berikutnya [ITEM], karena [ALASAN]."
+          },
+          {
+            "beat": "Top ranking",
+            "time": "35-50 detik",
+            "purpose": "Memberi payoff pada item teratas dengan alasan paling kuat.",
+            "voiceover": "Dan posisi pertama adalah [ITEM]. Dampaknya paling besar karena [ALASAN]."
+          },
+          {
+            "beat": "CTA",
+            "time": "50-60 detik",
+            "purpose": "Mengundang perbedaan pendapat yang relevan.",
+            "voiceover": "Setuju dengan urutan ini, atau ada item yang seharusnya naik? Jelaskan pilihanmu."
+          }
+        ],
+        "delivery": "Percaya diri dan argumentatif. Setiap ranking dibacakan dengan pola konsisten: nama item, alasan, konsekuensi. Hindari menyebut ranking sebagai fakta objektif jika kriterianya subjektif."
+      },
+      "visual_direction": {
+        "visual_concept": "Kartu ranking tersusun dari posisi terendah menuju tertinggi. Posisi pertama mendapat ruang dan waktu paling besar.",
+        "scenes": [
+          {
+            "visual": "Judul ranking dan kriteria penilaian.",
+            "motion": "Judul reveal, kriteria muncul sebagai label."
+          },
+          {
+            "visual": "Kartu ranking masuk satu per satu dari bawah.",
+            "motion": "Slide-in dan penguncian posisi."
+          },
+          {
+            "visual": "Posisi yang sudah dibuka tetap terlihat sebagai daftar progres.",
+            "motion": "Stack atau ladder bertambah."
+          },
+          {
+            "visual": "Item nomor satu tampil dominan dengan alasan utama.",
+            "motion": "Zoom fokus dan highlight."
+          },
+          {
+            "visual": "Seluruh ranking terlihat untuk evaluasi akhir.",
+            "motion": "Pull-back ke tampilan lengkap."
+          }
+        ],
+        "visual_metaphors": [
+          "rank ladder",
+          "tier cards",
+          "position markers",
+          "score labels"
+        ],
+        "avoid": [
+          "mengubah urutan tanpa alasan",
+          "mencampur kriteria berbeda",
+          "warna tier yang tidak dijelaskan",
+          "membuat ranking opini seolah data ilmiah"
+        ]
+      },
+      "information_design": {
+        "key_information": [
+          "kriteria",
+          "daftar item",
+          "posisi",
+          "alasan",
+          "batasan penilaian"
+        ],
+        "proof_requirement": "Untuk ranking berbasis data, cantumkan sumber dan periode. Untuk opini, nyatakan bahwa urutan merupakan penilaian berdasarkan kriteria yang disebutkan.",
+        "on_screen_text": "Nama item dan alasan maksimal satu kalimat. Kriteria harus tetap dapat ditemukan selama video."
+      },
+      "remotion_notes": {
+        "composition": "Gunakan komponen RankCard dan RankBoard. Urutan data dapat disusun dari ranking terakhir ke pertama untuk mendukung reveal bertahap.",
+        "animation": "Kartu masuk satu per satu. Gerakan posisi harus konsisten dan tidak membuat teks bertabrakan.",
+        "audio_sync": "Setiap kartu masuk mengikuti penyebutan item. Gunakan penekanan audio lebih kuat pada posisi pertama."
+      },
+      "content_inputs": [
+        "topik",
+        "kriteria",
+        "lima sampai tujuh item",
+        "urutan",
+        "alasan tiap posisi",
+        "sumber jika berbasis data"
+      ],
+      "quality_checks": [
+        "Apakah kriteria ranking jelas?",
+        "Apakah alasan tiap posisi konsisten?",
+        "Apakah item nomor satu memiliki payoff yang memadai?"
+      ]
+    },
+    {
+      "id": "bar_chart_race_harga",
+      "title": "Perubahan Harga atau Angka dari Tahun ke Tahun",
+      "category": "data_storytelling",
+      "core_objective": "Menceritakan perubahan angka dari waktu ke waktu dan menjelaskan faktor yang relevan. Visualisasi harus akurat dan tidak membuat tren palsu.",
+      "recommended_duration_seconds": "40-60",
+      "narrative": {
+        "premise": "Pilih satu metrik yang konsisten dan rentang waktu yang jelas. Tampilkan perubahan, tandai peristiwa penting, lalu jelaskan makna data dengan batasan yang tepat.",
+        "structure": [
+          {
+            "beat": "Hook",
+            "time": "0-4 detik",
+            "purpose": "Memancing rasa ingin tahu melalui perbandingan masa lalu dan sekarang.",
+            "voiceover": "Tahun [TAHUN AWAL], [ITEM] berada di angka [NILAI AWAL]. Sekarang, angkanya menjadi [NILAI AKHIR].",
+            "onscreen": "DULU vs SEKARANG"
+          },
+          {
+            "beat": "Definisi data",
+            "time": "4-10 detik",
+            "purpose": "Menjelaskan apa yang diukur dan satuannya.",
+            "voiceover": "Kita melihat perubahan [METRIK], menggunakan satuan [SATUAN], dari [TAHUN AWAL] sampai [TAHUN AKHIR]."
+          },
+          {
+            "beat": "Pergerakan data",
+            "time": "10-35 detik",
+            "purpose": "Menampilkan perubahan dan titik penting dalam periode.",
+            "voiceover": "Pada [TAHUN], angka mulai [PERUBAHAN]. Lalu pada [TAHUN], terjadi [PERISTIWA]. Setelah itu, trennya [ARAH PERUBAHAN]."
+          },
+          {
+            "beat": "Interpretasi",
+            "time": "35-50 detik",
+            "purpose": "Menjelaskan arti tren tanpa menyamakan korelasi dengan sebab-akibat.",
+            "voiceover": "Data ini menunjukkan [TEMUAN]. Namun, perubahan tersebut juga perlu dilihat bersama [FAKTOR ATAU BATASAN]."
+          },
+          {
+            "beat": "Kesimpulan dan sumber",
+            "time": "50-60 detik",
+            "purpose": "Menyampaikan satu kesimpulan dan memberi jalur verifikasi.",
+            "voiceover": "Jadi, perubahan paling besar terjadi pada [PERIODE]. Sumber data: [SUMBER].",
+            "onscreen": "Sumber: [NAMA SUMBER]"
+          }
+        ],
+        "delivery": "Netral dan berbasis data. Narator membimbing penonton membaca grafik. Tekankan perubahan yang penting, bukan setiap angka."
+      },
+      "visual_direction": {
+        "visual_concept": "Grafik garis atau bar race bergerak sepanjang waktu. Peristiwa penting muncul sebagai anotasi yang terkait dengan tahun tertentu.",
+        "scenes": [
+          {
+            "visual": "Angka awal dan akhir ditampilkan sebagai pertanyaan.",
+            "motion": "Counter awal muncul, lalu label periode."
+          },
+          {
+            "visual": "Sumbu waktu, satuan, dan seri data dibangun.",
+            "motion": "Chart axes dan bar muncul sebelum data bergerak."
+          },
+          {
+            "visual": "Grafik bergerak dari tahun ke tahun.",
+            "motion": "Interpolasi nilai berdasarkan data aktual."
+          },
+          {
+            "visual": "Peristiwa penting ditandai pada titik waktunya.",
+            "motion": "Annotation pin muncul dan grafik berhenti sejenak."
+          },
+          {
+            "visual": "Temuan utama dan sumber ditampilkan.",
+            "motion": "Chart mengecil, insight card dan sumber muncul."
+          }
+        ],
+        "visual_metaphors": [
+          "bar chart race",
+          "line chart",
+          "timeline annotations",
+          "source card"
+        ],
+        "avoid": [
+          "mengubah skala sumbu untuk mendramatisasi tanpa penjelasan",
+          "menggabungkan data dengan satuan atau definisi berbeda",
+          "mengisi tahun kosong dengan angka rekaan",
+          "menyimpulkan sebab-akibat dari korelasi"
+        ]
+      },
+      "information_design": {
+        "key_information": [
+          "nama metrik",
+          "satuan",
+          "rentang waktu",
+          "data tahunan",
+          "peristiwa relevan",
+          "temuan",
+          "sumber"
+        ],
+        "proof_requirement": "Gunakan data resmi atau sumber primer seperti BPS, Bank Indonesia, kementerian, atau lembaga terkait. Cantumkan nama sumber, periode, tanggal akses bila relevan, dan tautan atau referensi ringkas.",
+        "on_screen_text": "Satuan dan tahun harus terlihat. Sumber tetap ditampilkan cukup lama untuk dibaca. Jika data nominal belum disesuaikan inflasi, nyatakan dengan jelas."
+      },
+      "remotion_notes": {
+        "composition": "Data disimpan sebagai array terstruktur. Pisahkan fungsi normalisasi data, interpolasi, skala chart, dan komponen visual.",
+        "animation": "Nilai chart bergerak berdasarkan waktu frame. Gunakan interpolasi yang konsisten dan pastikan label angka tidak melompat secara membingungkan.",
+        "audio_sync": "VO menyebut tahun atau peristiwa saat anotasi tampil. Musik tidak boleh menutupi pembacaan angka."
+      },
+      "content_inputs": [
+        "metrik",
+        "satuan",
+        "rentang tahun",
+        "dataset dan sumber",
+        "peristiwa penting",
+        "temuan",
+        "catatan metodologi"
+      ],
+      "quality_checks": [
+        "Apakah semua angka berasal dari sumber yang dapat diverifikasi?",
+        "Apakah satuan dan definisi konsisten?",
+        "Apakah grafik menggunakan skala yang jujur?",
+        "Apakah kesimpulan sesuai dengan data?"
+      ]
+    },
+    {
+      "id": "tiga_hal_minggu_ini",
+      "title": "Seri Mingguan: 3 Hal Minggu Ini",
+      "category": "recurring_news_digest",
+      "core_objective": "Menyampaikan tiga perkembangan terbaru dalam satu niche secara ringkas dan konsisten. Setiap poin harus menjawab apa yang terjadi dan mengapa audiens perlu peduli.",
+      "recommended_duration_seconds": "35-55",
+      "narrative": {
+        "premise": "Pilih tiga informasi paling relevan dalam periode yang jelas. Gunakan struktur yang sama untuk setiap poin agar seri mudah dikenali dan diproduksi berulang.",
+        "structure": [
+          {
+            "beat": "Identitas seri dan hook",
+            "time": "0-4 detik",
+            "purpose": "Membangun pengenalan seri dan menyatakan periode.",
+            "voiceover": "Tiga hal penting minggu ini di [NICHE], periode [TANGGAL]. Ini yang perlu kamu tahu.",
+            "onscreen": "3 HAL MINGGU INI"
+          },
+          {
+            "beat": "Poin pertama",
+            "time": "4-17 detik",
+            "purpose": "Menyampaikan perkembangan paling penting.",
+            "voiceover": "Pertama, [PERISTIWA]. Ini penting karena [DAMPAK BAGI AUDIENS]."
+          },
+          {
+            "beat": "Poin kedua",
+            "time": "17-30 detik",
+            "purpose": "Memberi perkembangan kedua dengan konteks singkat.",
+            "voiceover": "Kedua, [PERISTIWA]. Perhatikan [DETAIL UTAMA], karena [ALASAN]."
+          },
+          {
+            "beat": "Poin ketiga",
+            "time": "30-43 detik",
+            "purpose": "Menutup rangkaian dengan informasi yang memiliki nilai praktis atau kejutan.",
+            "voiceover": "Ketiga, [PERISTIWA]. Dampak yang perlu dipantau adalah [DAMPAK]."
+          },
+          {
+            "beat": "Rangkuman dan CTA",
+            "time": "43-55 detik",
+            "purpose": "Menyatukan ketiga poin dan meminta masukan topik berikutnya.",
+            "voiceover": "Itu tiga hal minggu ini. Mana yang paling berdampak menurutmu?",
+            "onscreen": "Topik apa untuk minggu depan?"
+          }
+        ],
+        "delivery": "Cepat tetapi tidak terburu-buru. Gunakan intonasi informatif seperti pembawa rangkuman berita. Beri jeda singkat antar poin dan jangan membacakan headline terlalu panjang."
+      },
+      "visual_direction": {
+        "visual_concept": "Satu template editorial yang konsisten. Setiap poin memiliki nomor, headline, visual pendukung, satu angka atau fakta, dan sumber.",
+        "scenes": [
+          {
+            "visual": "Opening seri dengan nama niche dan rentang tanggal.",
+            "motion": "Nomor tiga masuk sebagai elemen utama."
+          },
+          {
+            "visual": "Kartu poin pertama dengan headline dan visual pendukung.",
+            "motion": "Card transition dan emphasis pada angka utama."
+          },
+          {
+            "visual": "Kartu poin kedua dan ketiga menggunakan layout konsisten.",
+            "motion": "Pergantian kartu mengikuti beat VO."
+          },
+          {
+            "visual": "Ringkasan tiga poin dan CTA.",
+            "motion": "Tiga kartu menyusut menjadi satu daftar ringkas."
+          }
+        ],
+        "visual_metaphors": [
+          "numbered editorial cards",
+          "headline",
+          "fact chip",
+          "source label"
+        ],
+        "avoid": [
+          "memasukkan berita yang belum diverifikasi",
+          "headline clickbait yang tidak sesuai isi",
+          "mencampur tanggal publikasi dan tanggal kejadian",
+          "menggunakan visual berita yang tidak relevan"
+        ]
+      },
+      "information_design": {
+        "key_information": [
+          "nama seri",
+          "rentang tanggal",
+          "tiga perkembangan",
+          "dampak atau relevansi",
+          "sumber tiap poin"
+        ],
+        "proof_requirement": "Periksa tanggal, konteks, dan sumber setiap perkembangan. Utamakan sumber primer dan media tepercaya. Pisahkan fakta dari analisis. Jangan menyebut informasi lama sebagai kabar minggu ini.",
+        "on_screen_text": "Setiap kartu memuat headline pendek, satu fakta kunci, dan label sumber. Detail tambahan masuk ke VO atau caption."
+      },
+      "remotion_notes": {
+        "composition": "Satu template menerima inputProps untuk periode, niche, tiga item, aset, dan sumber. Render batch dilakukan dengan mengganti data, bukan menggandakan komposisi.",
+        "animation": "Transisi antarkartu konsisten. Branding, nomor episode, dan label sumber menjadi elemen reusable.",
+        "audio_sync": "VO direkam per segmen atau disusun dengan jeda antar kartu. Musik latar konsisten antar episode agar identitas seri terbentuk."
+      },
+      "content_inputs": [
+        "niche",
+        "periode tanggal",
+        "tiga perkembangan",
+        "headline",
+        "fakta utama",
+        "dampak",
+        "sumber",
+        "CTA"
+      ],
+      "quality_checks": [
+        "Apakah semua informasi benar-benar berasal dari periode yang disebut?",
+        "Apakah tiap poin memiliki relevansi bagi audiens?",
+        "Apakah sumber tiap poin dapat diverifikasi?",
+        "Apakah format konsisten dengan episode sebelumnya?"
+      ]
+    }
+  ]
+}

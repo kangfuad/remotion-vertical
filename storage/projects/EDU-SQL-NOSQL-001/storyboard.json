@@ -1,0 +1,100 @@
+{
+  "projectId": "EDU-SQL-NOSQL-001",
+  "title": "SQL vs NoSQL Database: What's the Difference?",
+  "fps": 30,
+  "totalFrames": 1780,
+  "totalDurationSec": 59.333333333333336,
+  "scenes": [
+    {
+      "id": 1,
+      "name": "Opening Hook",
+      "text": "Pernah kepikiran nggak, gimana jutaan data aplikasi yang kita pakai tiap hari disimpan? Ada dua kubu besar: SQL dan NoSQL.",
+      "audioDuration": 8.126984,
+      "pauseSec": 0.4,
+      "startFrame": 0,
+      "durationFrames": 256,
+      "endFrame": 256,
+      "startSec": 0,
+      "endSec": 8.533333333333333,
+      "audioFile": "scene_1.mp3"
+    },
+    {
+      "id": 2,
+      "name": "What is SQL?",
+      "text": "SQL itu ibarat lemari arsip super rapi. Semua data disimpan dalam tabel, baris, dan kolom dengan skema yang teratur.",
+      "audioDuration": 8.219864,
+      "pauseSec": 0.4,
+      "startFrame": 256,
+      "durationFrames": 259,
+      "endFrame": 515,
+      "startSec": 8.533333333333333,
+      "endSec": 17.166666666666668,
+      "audioFile": "scene_2.mp3"
+    },
+    {
+      "id": 3,
+      "name": "SQL Query",
+      "text": "Mau ambil data? Tinggal tulis query seperti SELECT, WHERE, dan JOIN. Hasilnya pasti presisi dan konsisten.",
+      "audioDuration": 7.291066,
+      "pauseSec": 0.5,
+      "startFrame": 515,
+      "durationFrames": 234,
+      "endFrame": 749,
+      "startSec": 17.166666666666668,
+      "endSec": 24.966666666666665,
+      "audioFile": "scene_3.mp3"
+    },
+    {
+      "id": 4,
+      "name": "What is NoSQL?",
+      "text": "Beda cerita dengan NoSQL. Dia jauh lebih fleksibel. Formatnya mirip dokumen JSON, jadi strukturnya bebas berkembang kapan saja.",
+      "audioDuration": 8.359184,
+      "pauseSec": 0.4,
+      "startFrame": 749,
+      "durationFrames": 263,
+      "endFrame": 1012,
+      "startSec": 24.966666666666665,
+      "endSec": 33.733333333333334,
+      "audioFile": "scene_4.mp3"
+    },
+    {
+      "id": 5,
+      "name": "Key Differences",
+      "text": "Kuncinya: SQL unggul di relasi tabel dan konsistensi. Sedangkan NoSQL unggul di fleksibilitas dan mudah di-scale ke banyak server.",
+      "audioDuration": 9.102222,
+      "pauseSec": 0.5,
+      "startFrame": 1012,
+      "durationFrames": 289,
+      "endFrame": 1301,
+      "startSec": 33.733333333333334,
+      "endSec": 43.36666666666667,
+      "audioFile": "scene_5.mp3"
+    },
+    {
+      "id": 6,
+      "name": "When to Use Each?",
+      "text": "Gunakan SQL untuk transaksi penting seperti perbankan. Tapi untuk aplikasi cepat seperti medsos atau e-commerce, NoSQL jagonya.",
+      "audioDuration": 8.312744,
+      "pauseSec": 0.4,
+      "startFrame": 1301,
+      "durationFrames": 262,
+      "endFrame": 1563,
+      "startSec": 43.36666666666667,
+      "endSec": 52.1,
+      "audioFile": "scene_6.mp3"
+    },
+    {
+      "id": 7,
+      "name": "Closing",
+      "text": "Jadi, nggak ada yang paling hebat. Pilih database yang paling pas buat kebutuhan sistem kamu.",
+      "audioDuration": 5.712109,
+      "pauseSec": 1.5,
+      "startFrame": 1563,
+      "durationFrames": 217,
+      "endFrame": 1780,
+      "startSec": 52.1,
+      "endSec": 59.333333333333336,
+      "audioFile": "scene_7.mp3"
+    }
+  ]
+}

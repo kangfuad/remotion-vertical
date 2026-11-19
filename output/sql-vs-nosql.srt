@@ -1,0 +1,124 @@
+1
+00:00:00,000 --> 00:00:01,463
+Pernah kepikiran nggak, gimana
+
+2
+00:00:01,521 --> 00:00:02,995
+jutaan data aplikasi yang
+
+3
+00:00:03,019 --> 00:00:03,994
+kita pakai tiap hari
+
+4
+00:00:04,040 --> 00:00:05,550
+disimpan? Ada dua kubu
+
+5
+00:00:05,596 --> 00:00:08,127
+besar: SQL dan NoSQL.
+
+6
+00:00:08,533 --> 00:00:10,054
+SQL itu ibarat lemari
+
+7
+00:00:10,135 --> 00:00:12,190
+arsip super rapi. Semua
+
+8
+00:00:12,248 --> 00:00:13,850
+data disimpan dalam tabel,
+
+9
+00:00:13,920 --> 00:00:15,499
+baris, dan kolom dengan
+
+10
+00:00:15,545 --> 00:00:17,398
+skema yang teratur. Mau
+
+11
+00:00:17,456 --> 00:00:18,977
+ambil data? Tinggal tulis
+
+12
+00:00:19,047 --> 00:00:21,125
+query seperti SELECT, WHERE,
+
+13
+00:00:21,183 --> 00:00:22,866
+dan JOIN. Hasilnya pasti
+
+14
+00:00:22,913 --> 00:00:25,268
+presisi dan konsisten. Beda
+
+15
+00:00:25,326 --> 00:00:26,742
+cerita dengan NoSQL. Dia
+
+16
+00:00:26,858 --> 00:00:28,925
+jauh lebih fleksibel. Formatnya
+
+17
+00:00:28,983 --> 00:00:30,701
+mirip dokumen JSON, jadi
+
+18
+00:00:30,748 --> 00:00:32,559
+strukturnya bebas berkembang kapan
+
+19
+00:00:32,629 --> 00:00:35,544
+saja. Kuncinya: SQL unggul
+
+20
+00:00:35,591 --> 00:00:36,763
+di relasi tabel dan
+
+21
+00:00:36,844 --> 00:00:39,306
+konsistensi. Sedangkan NoSQL unggul
+
+22
+00:00:39,364 --> 00:00:40,966
+di fleksibilitas dan mudah
+
+23
+00:00:41,012 --> 00:00:42,835
+di-scale ke banyak server.
+
+24
+00:00:43,366 --> 00:00:45,073
+Gunakan SQL untuk transaksi
+
+25
+00:00:45,131 --> 00:00:46,884
+penting seperti perbankan. Tapi
+
+26
+00:00:46,953 --> 00:00:48,440
+untuk aplikasi cepat seperti
+
+27
+00:00:48,498 --> 00:00:50,901
+medsos atau e-commerce, NoSQL
+
+28
+00:00:50,971 --> 00:00:53,482
+jagonya. Jadi, nggak ada
+
+29
+00:00:53,540 --> 00:00:54,712
+yang paling hebat. Pilih
+
+30
+00:00:54,735 --> 00:00:56,129
+database yang paling pas
+
+31
+00:00:56,245 --> 00:00:57,812
+buat kebutuhan sistem kamu.
+

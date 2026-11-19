@@ -1,0 +1,53 @@
+{
+  "projectId": "EDU-SQL-NOSQL-001",
+  "title": "SQL vs NoSQL Database: What's the Difference?",
+  "category": "Technology Education",
+  "status": "COMPLETED",
+  "renderedAt": "2026-11-19T11:08:24Z",
+  "videoMetrics": {
+    "durationSeconds": 59.35,
+    "totalFrames": 1780,
+    "fps": 30,
+    "resolution": "1080x1920",
+    "aspectRatio": "9:16",
+    "videoCodec": "H.264",
+    "audioCodec": "AAC",
+    "fileSizeBytes": 5964423,
+    "fileSizeMB": 5.96
+  },
+  "audioPipeline": {
+    "ttsProvider": "ElevenLabs",
+    "voiceName": "SI-LITY",
+    "voiceId": "7KXl23pibFD4VWUWV1E8",
+    "deliveryStyle": "Natural Conversational Indonesian (Warm, Engaging & Human)",
+    "voiceSettings": {
+      "stability": 0.40,
+      "similarity_boost": 0.80,
+      "style": 0.28,
+      "use_speaker_boost": true
+    },
+    "pauses": "Tight 0.4s-0.5s natural breath breaks (Zero awkward holds, Zero audio overlap)",
+    "bgmProvider": "ElevenLabs Sound Generation API",
+    "audioDuckingVolume": 0.08
+  },
+  "subtitleSafeZone": {
+    "verticalPosition": "bottom: 460px",
+    "safeZoneCompatibility": "Cleared from YouTube Shorts, TikTok, and Instagram Reels bottom UI buttons, avatar, title, and audio tags",
+    "orthography": "Strict clean standard technical terms: SQL, NoSQL, JSON, SELECT, WHERE, JOIN (No phonetic spelling)"
+  },
+  "visualDirection": {
+    "style": "Clean Social Motion Graphics (Zero Robot Debug Labels / Zero AI Slop)",
+    "removedBadges": [
+      "DOC-EDU // 001",
+      "BRIEF // 01",
+      "TECHNICAL MATRIX",
+      "PARADIGMA",
+      "ARCHITECTURE USE CASES"
+    ]
+  },
+  "artifacts": {
+    "mp4": "output/sql-vs-nosql.mp4",
+    "srt": "output/sql-vs-nosql.srt",
+    "thumbnail": "output/thumbnail.png"
+  }
+}

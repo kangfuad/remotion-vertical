@@ -1,0 +1,28 @@
+{
+  "profileId": "IDN-F01",
+  "name": "SI-LITY",
+  "voiceId": "7KXl23pibFD4VWUWV1E8",
+  "modelId": "eleven_multilingual_v2",
+  "character": "Perempuan muda dewasa (25-32 tahun)",
+  "language": "id-ID",
+  "accent": "Solo / Jawa Tengah (subtle & natural)",
+  "voiceSettings": {
+    "stability": 0.50,
+    "similarity_boost": 0.82,
+    "style": 0.20,
+    "use_speaker_boost": true
+  },
+  "pauses": {
+    "commaPhraseMs": 250,
+    "sentenceEndMs": 400,
+    "sceneChangeMs": 500,
+    "reflectiveMs": 1000
+  },
+  "deliveryPresets": {
+    "education": { "speed": 1.0, "style": 0.20, "description": "Jelas, informatif, approachable" },
+    "tutorial": { "speed": 0.98, "style": 0.18, "description": "Sistematis, tegas, natural" },
+    "documentary": { "speed": 0.95, "style": 0.15, "description": "Tenang, matang, berwibawa" },
+    "cinematic": { "speed": 0.92, "style": 0.25, "description": "Intimate, ekspresif, terkontrol" },
+    "storytelling": { "speed": 0.90, "style": 0.25, "description": "Personal, hangat, reflektif" }
+  }
+}

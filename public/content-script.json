@@ -1,0 +1,59 @@
+{
+  "totalFrames": 873,
+  "fps": 30,
+  "totalDuration": 29.085624000000003,
+  "segments": [
+    {
+      "id": 1,
+      "tag": "ATURAN 2 MENIT",
+      "text": "Kalau suatu pekerjaan butuh waktu kurang dari 2 menit... jangan tunda, lakukan sekarang juga.",
+      "highlight": "lakukan sekarang juga",
+      "keyWord": "2 MENIT",
+      "startFrame": 15,
+      "durationFrames": 204,
+      "endFrame": 219,
+      "startTime": 0.5,
+      "duration": 6.786213,
+      "audioFile": "seg_0.mp3"
+    },
+    {
+      "id": 2,
+      "tag": "KENAPA KITA STRES?",
+      "text": "Sering kali yang bikin kita stres bukan tugas besar, tapi tumpukan hal kecil yang sengaja kita tunda.",
+      "highlight": "bukan tugas besar",
+      "keyWord": "TUMPUKAN KECIL",
+      "startFrame": 231,
+      "durationFrames": 210,
+      "endFrame": 441,
+      "startTime": 7.686213,
+      "duration": 7.008163,
+      "audioFile": "seg_1.mp3"
+    },
+    {
+      "id": 3,
+      "tag": "TRIK PSIKOLOGIS",
+      "text": "Otak kita benci tugas yang menggantung. Begitu kamu selesaikan dalam 2 menit, tercipta momentum baru.",
+      "highlight": "tercipta momentum baru",
+      "keyWord": "MOMENTUM",
+      "startFrame": 453,
+      "durationFrames": 219,
+      "endFrame": 672,
+      "startTime": 15.094376,
+      "duration": 7.298277,
+      "audioFile": "seg_2.mp3"
+    },
+    {
+      "id": 4,
+      "tag": "TANTANGAN HARI INI",
+      "text": "Apa hal 2 menit yang sedang kamu tunda hari ini? Selesaikan sekarang juga!",
+      "highlight": "Selesaikan sekarang juga!",
+      "keyWord": "SELESAIKAN SEKARANG",
+      "startFrame": 684,
+      "durationFrames": 153,
+      "endFrame": 837,
+      "startTime": 22.792653,
+      "duration": 5.092971,
+      "audioFile": "seg_3.mp3"
+    }
+  ]
+}

@@ -1,0 +1,967 @@
+{
+  "projectId": "EDU-SQL-NOSQL-001",
+  "totalWords": 124,
+  "words": [
+    {
+      "word": "Pernah",
+      "startSec": 0,
+      "endSec": 0.267,
+      "startMs": 0,
+      "endMs": 267
+    },
+    {
+      "word": "kepikiran",
+      "startSec": 0.29,
+      "endSec": 0.685,
+      "startMs": 290,
+      "endMs": 685
+    },
+    {
+      "word": "nggak,",
+      "startSec": 0.708,
+      "endSec": 0.964,
+      "startMs": 708,
+      "endMs": 964
+    },
+    {
+      "word": "gimana",
+      "startSec": 1.033,
+      "endSec": 1.463,
+      "startMs": 1033,
+      "endMs": 1463
+    },
+    {
+      "word": "jutaan",
+      "startSec": 1.521,
+      "endSec": 1.846,
+      "startMs": 1521,
+      "endMs": 1846
+    },
+    {
+      "word": "data",
+      "startSec": 1.892,
+      "endSec": 2.078,
+      "startMs": 1892,
+      "endMs": 2078
+    },
+    {
+      "word": "aplikasi",
+      "startSec": 2.125,
+      "endSec": 2.763,
+      "startMs": 2125,
+      "endMs": 2763
+    },
+    {
+      "word": "yang",
+      "startSec": 2.844,
+      "endSec": 2.995,
+      "startMs": 2844,
+      "endMs": 2995
+    },
+    {
+      "word": "kita",
+      "startSec": 3.019,
+      "endSec": 3.204,
+      "startMs": 3019,
+      "endMs": 3204
+    },
+    {
+      "word": "pakai",
+      "startSec": 3.251,
+      "endSec": 3.471,
+      "startMs": 3251,
+      "endMs": 3471
+    },
+    {
+      "word": "tiap",
+      "startSec": 3.506,
+      "endSec": 3.692,
+      "startMs": 3506,
+      "endMs": 3692
+    },
+    {
+      "word": "hari",
+      "startSec": 3.762,
+      "endSec": 3.994,
+      "startMs": 3762,
+      "endMs": 3994
+    },
+    {
+      "word": "disimpan?",
+      "startSec": 4.04,
+      "endSec": 4.632,
+      "startMs": 4040,
+      "endMs": 4632
+    },
+    {
+      "word": "Ada",
+      "startSec": 4.69,
+      "endSec": 4.946,
+      "startMs": 4690,
+      "endMs": 4946
+    },
+    {
+      "word": "dua",
+      "startSec": 5.004,
+      "endSec": 5.283,
+      "startMs": 5004,
+      "endMs": 5283
+    },
+    {
+      "word": "kubu",
+      "startSec": 5.329,
+      "endSec": 5.55,
+      "startMs": 5329,
+      "endMs": 5550
+    },
+    {
+      "word": "besar:",
+      "startSec": 5.596,
+      "endSec": 6.06,
+      "startMs": 5596,
+      "endMs": 6060
+    },
+    {
+      "word": "SQL",
+      "startSec": 6.095,
+      "endSec": 6.769,
+      "startMs": 6095,
+      "endMs": 6769
+    },
+    {
+      "word": "dan",
+      "startSec": 6.85,
+      "endSec": 7.036,
+      "startMs": 6850,
+      "endMs": 7036
+    },
+    {
+      "word": "NoSQL.",
+      "startSec": 7.105,
+      "endSec": 8.127,
+      "startMs": 7105,
+      "endMs": 8127
+    },
+    {
+      "word": "SQL",
+      "startSec": 8.533333333333333,
+      "endSec": 8.928333333333333,
+      "startMs": 8533,
+      "endMs": 8928
+    },
+    {
+      "word": "itu",
+      "startSec": 8.986333333333333,
+      "endSec": 9.172333333333333,
+      "startMs": 8986,
+      "endMs": 9172
+    },
+    {
+      "word": "ibarat",
+      "startSec": 9.241333333333333,
+      "endSec": 9.543333333333333,
+      "startMs": 9241,
+      "endMs": 9543
+    },
+    {
+      "word": "lemari",
+      "startSec": 9.590333333333334,
+      "endSec": 10.054333333333332,
+      "startMs": 9590,
+      "endMs": 10054
+    },
+    {
+      "word": "arsip",
+      "startSec": 10.135333333333334,
+      "endSec": 10.565333333333333,
+      "startMs": 10135,
+      "endMs": 10565
+    },
+    {
+      "word": "super",
+      "startSec": 10.646333333333333,
+      "endSec": 11.110333333333333,
+      "startMs": 10646,
+      "endMs": 11110
+    },
+    {
+      "word": "rapi.",
+      "startSec": 11.157333333333334,
+      "endSec": 11.679333333333332,
+      "startMs": 11157,
+      "endMs": 11679
+    },
+    {
+      "word": "Semua",
+      "startSec": 11.714333333333332,
+      "endSec": 12.190333333333333,
+      "startMs": 11714,
+      "endMs": 12190
+    },
+    {
+      "word": "data",
+      "startSec": 12.248333333333333,
+      "endSec": 12.480333333333334,
+      "startMs": 12248,
+      "endMs": 12480
+    },
+    {
+      "word": "disimpan",
+      "startSec": 12.527333333333333,
+      "endSec": 12.933333333333334,
+      "startMs": 12527,
+      "endMs": 12933
+    },
+    {
+      "word": "dalam",
+      "startSec": 12.968333333333334,
+      "endSec": 13.154333333333334,
+      "startMs": 12968,
+      "endMs": 13154
+    },
+    {
+      "word": "tabel,",
+      "startSec": 13.212333333333333,
+      "endSec": 13.850333333333333,
+      "startMs": 13212,
+      "endMs": 13850
+    },
+    {
+      "word": "baris,",
+      "startSec": 13.920333333333332,
+      "endSec": 14.547333333333334,
+      "startMs": 13920,
+      "endMs": 14547
+    },
+    {
+      "word": "dan",
+      "startSec": 14.582333333333334,
+      "endSec": 14.710333333333333,
+      "startMs": 14582,
+      "endMs": 14710
+    },
+    {
+      "word": "kolom",
+      "startSec": 14.791333333333334,
+      "endSec": 15.232333333333333,
+      "startMs": 14791,
+      "endMs": 15232
+    },
+    {
+      "word": "dengan",
+      "startSec": 15.290333333333333,
+      "endSec": 15.499333333333333,
+      "startMs": 15290,
+      "endMs": 15499
+    },
+    {
+      "word": "skema",
+      "startSec": 15.545333333333332,
+      "endSec": 15.894333333333332,
+      "startMs": 15545,
+      "endMs": 15894
+    },
+    {
+      "word": "yang",
+      "startSec": 15.940333333333333,
+      "endSec": 16.079333333333334,
+      "startMs": 15940,
+      "endMs": 16079
+    },
+    {
+      "word": "teratur.",
+      "startSec": 16.126333333333335,
+      "endSec": 16.753333333333334,
+      "startMs": 16126,
+      "endMs": 16753
+    },
+    {
+      "word": "Mau",
+      "startSec": 17.166666666666668,
+      "endSec": 17.398666666666667,
+      "startMs": 17167,
+      "endMs": 17399
+    },
+    {
+      "word": "ambil",
+      "startSec": 17.456666666666667,
+      "endSec": 17.712666666666667,
+      "startMs": 17457,
+      "endMs": 17713
+    },
+    {
+      "word": "data?",
+      "startSec": 17.770666666666667,
+      "endSec": 18.25766666666667,
+      "startMs": 17771,
+      "endMs": 18258
+    },
+    {
+      "word": "Tinggal",
+      "startSec": 18.37366666666667,
+      "endSec": 18.71066666666667,
+      "startMs": 18374,
+      "endMs": 18711
+    },
+    {
+      "word": "tulis",
+      "startSec": 18.75766666666667,
+      "endSec": 18.977666666666668,
+      "startMs": 18758,
+      "endMs": 18978
+    },
+    {
+      "word": "query",
+      "startSec": 19.047666666666668,
+      "endSec": 19.453666666666667,
+      "startMs": 19048,
+      "endMs": 19454
+    },
+    {
+      "word": "seperti",
+      "startSec": 19.534666666666666,
+      "endSec": 19.99966666666667,
+      "startMs": 19535,
+      "endMs": 20000
+    },
+    {
+      "word": "SELECT,",
+      "startSec": 20.092666666666666,
+      "endSec": 20.61466666666667,
+      "startMs": 20093,
+      "endMs": 20615
+    },
+    {
+      "word": "WHERE,",
+      "startSec": 20.730666666666668,
+      "endSec": 21.125666666666667,
+      "startMs": 20731,
+      "endMs": 21126
+    },
+    {
+      "word": "dan",
+      "startSec": 21.183666666666667,
+      "endSec": 21.392666666666667,
+      "startMs": 21184,
+      "endMs": 21393
+    },
+    {
+      "word": "JOIN.",
+      "startSec": 21.485666666666667,
+      "endSec": 21.91466666666667,
+      "startMs": 21486,
+      "endMs": 21915
+    },
+    {
+      "word": "Hasilnya",
+      "startSec": 21.98466666666667,
+      "endSec": 22.599666666666668,
+      "startMs": 21985,
+      "endMs": 22600
+    },
+    {
+      "word": "pasti",
+      "startSec": 22.64666666666667,
+      "endSec": 22.866666666666667,
+      "startMs": 22647,
+      "endMs": 22867
+    },
+    {
+      "word": "presisi",
+      "startSec": 22.913666666666668,
+      "endSec": 23.319666666666667,
+      "startMs": 22914,
+      "endMs": 23320
+    },
+    {
+      "word": "dan",
+      "startSec": 23.37766666666667,
+      "endSec": 23.528666666666666,
+      "startMs": 23378,
+      "endMs": 23529
+    },
+    {
+      "word": "konsisten.",
+      "startSec": 23.598666666666666,
+      "endSec": 24.457666666666668,
+      "startMs": 23599,
+      "endMs": 24458
+    },
+    {
+      "word": "Beda",
+      "startSec": 24.966666666666665,
+      "endSec": 25.268666666666665,
+      "startMs": 24967,
+      "endMs": 25269
+    },
+    {
+      "word": "cerita",
+      "startSec": 25.326666666666664,
+      "endSec": 25.628666666666664,
+      "startMs": 25327,
+      "endMs": 25629
+    },
+    {
+      "word": "dengan",
+      "startSec": 25.663666666666664,
+      "endSec": 25.860666666666663,
+      "startMs": 25664,
+      "endMs": 25861
+    },
+    {
+      "word": "NoSQL.",
+      "startSec": 25.883666666666667,
+      "endSec": 26.510666666666665,
+      "startMs": 25884,
+      "endMs": 26511
+    },
+    {
+      "word": "Dia",
+      "startSec": 26.545666666666666,
+      "endSec": 26.742666666666665,
+      "startMs": 26546,
+      "endMs": 26743
+    },
+    {
+      "word": "jauh",
+      "startSec": 26.858666666666664,
+      "endSec": 27.207666666666665,
+      "startMs": 26859,
+      "endMs": 27208
+    },
+    {
+      "word": "lebih",
+      "startSec": 27.265666666666664,
+      "endSec": 27.485666666666667,
+      "startMs": 27266,
+      "endMs": 27486
+    },
+    {
+      "word": "fleksibel.",
+      "startSec": 27.509666666666664,
+      "endSec": 28.379666666666665,
+      "startMs": 27510,
+      "endMs": 28380
+    },
+    {
+      "word": "Formatnya",
+      "startSec": 28.426666666666666,
+      "endSec": 28.925666666666665,
+      "startMs": 28427,
+      "endMs": 28926
+    },
+    {
+      "word": "mirip",
+      "startSec": 28.983666666666664,
+      "endSec": 29.285666666666664,
+      "startMs": 28984,
+      "endMs": 29286
+    },
+    {
+      "word": "dokumen",
+      "startSec": 29.343666666666664,
+      "endSec": 29.714666666666666,
+      "startMs": 29344,
+      "endMs": 29715
+    },
+    {
+      "word": "JSON,",
+      "startSec": 29.796666666666667,
+      "endSec": 30.423666666666666,
+      "startMs": 29797,
+      "endMs": 30424
+    },
+    {
+      "word": "jadi",
+      "startSec": 30.492666666666665,
+      "endSec": 30.701666666666664,
+      "startMs": 30493,
+      "endMs": 30702
+    },
+    {
+      "word": "strukturnya",
+      "startSec": 30.748666666666665,
+      "endSec": 31.282666666666664,
+      "startMs": 30749,
+      "endMs": 31283
+    },
+    {
+      "word": "bebas",
+      "startSec": 31.328666666666663,
+      "endSec": 31.642666666666663,
+      "startMs": 31329,
+      "endMs": 31643
+    },
+    {
+      "word": "berkembang",
+      "startSec": 31.700666666666663,
+      "endSec": 32.16466666666666,
+      "startMs": 31701,
+      "endMs": 32165
+    },
+    {
+      "word": "kapan",
+      "startSec": 32.22266666666667,
+      "endSec": 32.559666666666665,
+      "startMs": 32223,
+      "endMs": 32560
+    },
+    {
+      "word": "saja.",
+      "startSec": 32.629666666666665,
+      "endSec": 33.32566666666666,
+      "startMs": 32630,
+      "endMs": 33326
+    },
+    {
+      "word": "Kuncinya:",
+      "startSec": 33.733333333333334,
+      "endSec": 34.534333333333336,
+      "startMs": 33733,
+      "endMs": 34534
+    },
+    {
+      "word": "SQL",
+      "startSec": 34.68533333333333,
+      "endSec": 35.09133333333333,
+      "startMs": 34685,
+      "endMs": 35091
+    },
+    {
+      "word": "unggul",
+      "startSec": 35.184333333333335,
+      "endSec": 35.544333333333334,
+      "startMs": 35184,
+      "endMs": 35544
+    },
+    {
+      "word": "di",
+      "startSec": 35.59133333333333,
+      "endSec": 35.660333333333334,
+      "startMs": 35591,
+      "endMs": 35660
+    },
+    {
+      "word": "relasi",
+      "startSec": 35.718333333333334,
+      "endSec": 36.05533333333334,
+      "startMs": 35718,
+      "endMs": 36055
+    },
+    {
+      "word": "tabel",
+      "startSec": 36.101333333333336,
+      "endSec": 36.50833333333333,
+      "startMs": 36101,
+      "endMs": 36508
+    },
+    {
+      "word": "dan",
+      "startSec": 36.589333333333336,
+      "endSec": 36.763333333333335,
+      "startMs": 36589,
+      "endMs": 36763
+    },
+    {
+      "word": "konsistensi.",
+      "startSec": 36.84433333333333,
+      "endSec": 37.727333333333334,
+      "startMs": 36844,
+      "endMs": 37727
+    },
+    {
+      "word": "Sedangkan",
+      "startSec": 37.77333333333333,
+      "endSec": 38.23833333333334,
+      "startMs": 37773,
+      "endMs": 38238
+    },
+    {
+      "word": "NoSQL",
+      "startSec": 38.29633333333334,
+      "endSec": 38.830333333333336,
+      "startMs": 38296,
+      "endMs": 38830
+    },
+    {
+      "word": "unggul",
+      "startSec": 38.92333333333333,
+      "endSec": 39.306333333333335,
+      "startMs": 38923,
+      "endMs": 39306
+    },
+    {
+      "word": "di",
+      "startSec": 39.364333333333335,
+      "endSec": 39.43333333333334,
+      "startMs": 39364,
+      "endMs": 39433
+    },
+    {
+      "word": "fleksibilitas",
+      "startSec": 39.492333333333335,
+      "endSec": 40.351333333333336,
+      "startMs": 39492,
+      "endMs": 40351
+    },
+    {
+      "word": "dan",
+      "startSec": 40.42033333333333,
+      "endSec": 40.571333333333335,
+      "startMs": 40420,
+      "endMs": 40571
+    },
+    {
+      "word": "mudah",
+      "startSec": 40.61833333333333,
+      "endSec": 40.96633333333333,
+      "startMs": 40618,
+      "endMs": 40966
+    },
+    {
+      "word": "di-scale",
+      "startSec": 41.01233333333333,
+      "endSec": 41.477333333333334,
+      "startMs": 41012,
+      "endMs": 41477
+    },
+    {
+      "word": "ke",
+      "startSec": 41.51233333333333,
+      "endSec": 41.61633333333334,
+      "startMs": 41512,
+      "endMs": 41616
+    },
+    {
+      "word": "banyak",
+      "startSec": 41.68633333333334,
+      "endSec": 42.08133333333333,
+      "startMs": 41686,
+      "endMs": 42081
+    },
+    {
+      "word": "server.",
+      "startSec": 42.162333333333336,
+      "endSec": 42.83533333333334,
+      "startMs": 42162,
+      "endMs": 42835
+    },
+    {
+      "word": "Gunakan",
+      "startSec": 43.36666666666667,
+      "endSec": 43.772666666666666,
+      "startMs": 43367,
+      "endMs": 43773
+    },
+    {
+      "word": "SQL",
+      "startSec": 43.85466666666667,
+      "endSec": 44.35366666666667,
+      "startMs": 43855,
+      "endMs": 44354
+    },
+    {
+      "word": "untuk",
+      "startSec": 44.446666666666665,
+      "endSec": 44.63166666666667,
+      "startMs": 44447,
+      "endMs": 44632
+    },
+    {
+      "word": "transaksi",
+      "startSec": 44.65566666666667,
+      "endSec": 45.07366666666667,
+      "startMs": 44656,
+      "endMs": 45074
+    },
+    {
+      "word": "penting",
+      "startSec": 45.13166666666667,
+      "endSec": 45.54966666666667,
+      "startMs": 45132,
+      "endMs": 45550
+    },
+    {
+      "word": "seperti",
+      "startSec": 45.60766666666667,
+      "endSec": 45.885666666666665,
+      "startMs": 45608,
+      "endMs": 45886
+    },
+    {
+      "word": "perbankan.",
+      "startSec": 45.93266666666667,
+      "endSec": 46.59466666666667,
+      "startMs": 45933,
+      "endMs": 46595
+    },
+    {
+      "word": "Tapi",
+      "startSec": 46.62866666666667,
+      "endSec": 46.88466666666667,
+      "startMs": 46629,
+      "endMs": 46885
+    },
+    {
+      "word": "untuk",
+      "startSec": 46.95366666666667,
+      "endSec": 47.16266666666667,
+      "startMs": 46954,
+      "endMs": 47163
+    },
+    {
+      "word": "aplikasi",
+      "startSec": 47.221666666666664,
+      "endSec": 47.61566666666667,
+      "startMs": 47222,
+      "endMs": 47616
+    },
+    {
+      "word": "cepat",
+      "startSec": 47.66266666666667,
+      "endSec": 48.114666666666665,
+      "startMs": 47663,
+      "endMs": 48115
+    },
+    {
+      "word": "seperti",
+      "startSec": 48.16166666666667,
+      "endSec": 48.440666666666665,
+      "startMs": 48162,
+      "endMs": 48441
+    },
+    {
+      "word": "medsos",
+      "startSec": 48.498666666666665,
+      "endSec": 49.14866666666667,
+      "startMs": 48499,
+      "endMs": 49149
+    },
+    {
+      "word": "atau",
+      "startSec": 49.20666666666666,
+      "endSec": 49.403666666666666,
+      "startMs": 49207,
+      "endMs": 49404
+    },
+    {
+      "word": "e-commerce,",
+      "startSec": 49.461666666666666,
+      "endSec": 50.15866666666667,
+      "startMs": 49462,
+      "endMs": 50159
+    },
+    {
+      "word": "NoSQL",
+      "startSec": 50.227666666666664,
+      "endSec": 50.90166666666667,
+      "startMs": 50228,
+      "endMs": 50902
+    },
+    {
+      "word": "jagonya.",
+      "startSec": 50.971666666666664,
+      "endSec": 51.67966666666667,
+      "startMs": 50972,
+      "endMs": 51680
+    },
+    {
+      "word": "Jadi,",
+      "startSec": 52.1,
+      "endSec": 52.762,
+      "startMs": 52100,
+      "endMs": 52762
+    },
+    {
+      "word": "nggak",
+      "startSec": 52.831,
+      "endSec": 53.168,
+      "startMs": 52831,
+      "endMs": 53168
+    },
+    {
+      "word": "ada",
+      "startSec": 53.215,
+      "endSec": 53.482,
+      "startMs": 53215,
+      "endMs": 53482
+    },
+    {
+      "word": "yang",
+      "startSec": 53.54,
+      "endSec": 53.667,
+      "startMs": 53540,
+      "endMs": 53667
+    },
+    {
+      "word": "paling",
+      "startSec": 53.702,
+      "endSec": 53.911,
+      "startMs": 53702,
+      "endMs": 53911
+    },
+    {
+      "word": "hebat.",
+      "startSec": 53.958,
+      "endSec": 54.445,
+      "startMs": 53958,
+      "endMs": 54445
+    },
+    {
+      "word": "Pilih",
+      "startSec": 54.480000000000004,
+      "endSec": 54.712,
+      "startMs": 54480,
+      "endMs": 54712
+    },
+    {
+      "word": "database",
+      "startSec": 54.735,
+      "endSec": 55.211,
+      "startMs": 54735,
+      "endMs": 55211
+    },
+    {
+      "word": "yang",
+      "startSec": 55.246,
+      "endSec": 55.374,
+      "startMs": 55246,
+      "endMs": 55374
+    },
+    {
+      "word": "paling",
+      "startSec": 55.42,
+      "endSec": 55.699,
+      "startMs": 55420,
+      "endMs": 55699
+    },
+    {
+      "word": "pas",
+      "startSec": 55.792,
+      "endSec": 56.129000000000005,
+      "startMs": 55792,
+      "endMs": 56129
+    },
+    {
+      "word": "buat",
+      "startSec": 56.245000000000005,
+      "endSec": 56.442,
+      "startMs": 56245,
+      "endMs": 56442
+    },
+    {
+      "word": "kebutuhan",
+      "startSec": 56.489000000000004,
+      "endSec": 56.895,
+      "startMs": 56489,
+      "endMs": 56895
+    },
+    {
+      "word": "sistem",
+      "startSec": 56.953,
+      "endSec": 57.22,
+      "startMs": 56953,
+      "endMs": 57220
+    },
+    {
+      "word": "kamu.",
+      "startSec": 57.29,
+      "endSec": 57.812,
+      "startMs": 57290,
+      "endMs": 57812
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "name": "Opening Hook",
+      "text": "Pernah kepikiran nggak, gimana jutaan data aplikasi yang kita pakai tiap hari disimpan? Ada dua kubu besar: SQL dan NoSQL.",
+      "audioDuration": 8.126984,
+      "pauseSec": 0.4,
+      "startFrame": 0,
+      "durationFrames": 256,
+      "endFrame": 256,
+      "startSec": 0,
+      "endSec": 8.533333333333333,
+      "audioFile": "scene_1.mp3"
+    },
+    {
+      "id": 2,
+      "name": "What is SQL?",
+      "text": "SQL itu ibarat lemari arsip super rapi. Semua data disimpan dalam tabel, baris, dan kolom dengan skema yang teratur.",
+      "audioDuration": 8.219864,
+      "pauseSec": 0.4,
+      "startFrame": 256,
+      "durationFrames": 259,
+      "endFrame": 515,
+      "startSec": 8.533333333333333,
+      "endSec": 17.166666666666668,
+      "audioFile": "scene_2.mp3"
+    },
+    {
+      "id": 3,
+      "name": "SQL Query",
+      "text": "Mau ambil data? Tinggal tulis query seperti SELECT, WHERE, dan JOIN. Hasilnya pasti presisi dan konsisten.",
+      "audioDuration": 7.291066,
+      "pauseSec": 0.5,
+      "startFrame": 515,
+      "durationFrames": 234,
+      "endFrame": 749,
+      "startSec": 17.166666666666668,
+      "endSec": 24.966666666666665,
+      "audioFile": "scene_3.mp3"
+    },
+    {
+      "id": 4,
+      "name": "What is NoSQL?",
+      "text": "Beda cerita dengan NoSQL. Dia jauh lebih fleksibel. Formatnya mirip dokumen JSON, jadi strukturnya bebas berkembang kapan saja.",
+      "audioDuration": 8.359184,
+      "pauseSec": 0.4,
+      "startFrame": 749,
+      "durationFrames": 263,
+      "endFrame": 1012,
+      "startSec": 24.966666666666665,
+      "endSec": 33.733333333333334,
+      "audioFile": "scene_4.mp3"
+    },
+    {
+      "id": 5,
+      "name": "Key Differences",
+      "text": "Kuncinya: SQL unggul di relasi tabel dan konsistensi. Sedangkan NoSQL unggul di fleksibilitas dan mudah di-scale ke banyak server.",
+      "audioDuration": 9.102222,
+      "pauseSec": 0.5,
+      "startFrame": 1012,
+      "durationFrames": 289,
+      "endFrame": 1301,
+      "startSec": 33.733333333333334,
+      "endSec": 43.36666666666667,
+      "audioFile": "scene_5.mp3"
+    },
+    {
+      "id": 6,
+      "name": "When to Use Each?",
+      "text": "Gunakan SQL untuk transaksi penting seperti perbankan. Tapi untuk aplikasi cepat seperti medsos atau e-commerce, NoSQL jagonya.",
+      "audioDuration": 8.312744,
+      "pauseSec": 0.4,
+      "startFrame": 1301,
+      "durationFrames": 262,
+      "endFrame": 1563,
+      "startSec": 43.36666666666667,
+      "endSec": 52.1,
+      "audioFile": "scene_6.mp3"
+    },
+    {
+      "id": 7,
+      "name": "Closing",
+      "text": "Jadi, nggak ada yang paling hebat. Pilih database yang paling pas buat kebutuhan sistem kamu.",
+      "audioDuration": 5.712109,
+      "pauseSec": 1.5,
+      "startFrame": 1563,
+      "durationFrames": 217,
+      "endFrame": 1780,
+      "startSec": 52.1,
+      "endSec": 59.333333333333336,
+      "audioFile": "scene_7.mp3"
+    }
+  ]
+}
